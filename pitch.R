@@ -10,6 +10,7 @@ ggplot() +
   geom_point(aes(x=13, y=50),fill="white",colour="white",shape = 21, size = 1.5, stroke =1)+
   geom_point(aes(x=87, y=50),fill="white",colour="white",shape = 21, size = 1.5, stroke =1)+
   geom_curve(aes(x=17, y=38, xend = 17, yend=62),colour="white",size=1, curvature = 0.5)+
+  geom_curve(aes(x=83, y=38, xend = 83, yend=62),colour="white",size=1, curvature = -0.5)+
   geom_curve(aes(x=50, y=40, xend = 50, yend=60),colour="white",size=1, curvature = 1)+
   geom_curve(aes(x=50, y=40, xend = 50, yend=60),colour="white",size=1, curvature = -1)+
   theme(rect = element_blank(), 
